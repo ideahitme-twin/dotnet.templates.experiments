@@ -1,4 +1,4 @@
-# Experiment to use item templates
+# Experiment to use project templates
 
 To replicate install the src/templates/consoleasync template and do the following (from the repo root directory):
 

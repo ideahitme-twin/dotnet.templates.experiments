@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Me",
+  "classifications": [ "Common", "Console" ],
+  "identity": "ParametersTemplate.Example",
+  "name": "Example templates: with parameters",
+  "shortName": "parameters",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "HelloValue": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "String to be appended to Hello print value",
+      "replaces": "HelloValue",
+      "defaultValue": "World"
+    }
+  }
+}
